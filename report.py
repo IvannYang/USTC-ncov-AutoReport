@@ -77,6 +77,7 @@ class Report(object):
                 'start_date':start_date,
                 'end_date':end_date,
                 'return_college[]':'西校区',
+                
                 'return_college[]':'高新校区',
                 't':'3'}
             post=login.session.post('https://weixine.ustc.edu.cn/2020/apply/daliy/post',data=data)
